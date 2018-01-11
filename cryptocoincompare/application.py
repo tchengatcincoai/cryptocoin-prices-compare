@@ -7,7 +7,7 @@ from multiprocessing.dummy import Pool as ThreadPool
 
 import requests
 from apscheduler.schedulers.background import BackgroundScheduler
-from flask import Flask, render_template, redirect, url_for, request, make_response, jsonify
+from flask import Flask, render_template, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] (%(name)s) %(message)s')
