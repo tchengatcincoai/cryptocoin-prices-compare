@@ -65,6 +65,7 @@ def collect_coin_status():
             # wait 1s to make sure wont hit 1 second rate limiter
             time.sleep(1)
     except Exception as e:
+        db.session.rollback()
         log.exception(e)
 
 
