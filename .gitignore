@@ -1,2 +1,4 @@
 .idea/
 cryptocoincompare/local_storage.db
+venv/
+venv/share/doc/pycurl/examples/ssh_keyfunction.py
